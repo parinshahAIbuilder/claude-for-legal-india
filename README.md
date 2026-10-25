@@ -27,6 +27,8 @@ The upstream plugins are in this marketplace too. When following the upstream in
 
 Every output is a draft for review by qualified Indian counsel, a company secretary or a chartered accountant, and is not legal advice. Pair it with [claude-for-indian-finance](https://github.com/parinshahAIbuilder/claude-for-indian-finance) for SEBI LODR, Ind AS, GST, TDS, CMA and NCD workflows.
 
+**Privacy (india-legal plugin):** skills only, no MCP servers, no network calls of its own; it collects, stores or sends no data. Documents you share are read in your own Claude session.
+
 India edition maintained by [Parin Shah](https://www.linkedin.com/in/parinshah-cfo), CFO | CA | CPA. Changes from upstream are listed in [NOTICE-INDIA.md](NOTICE-INDIA.md). Licensed under Apache-2.0, like the upstream project. Not affiliated with or endorsed by Anthropic.
 
 ---
