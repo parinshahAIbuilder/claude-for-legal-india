@@ -1,3 +1,36 @@
+# Claude for Legal — India Edition 🇮🇳
+
+> **This fork adds an [`india-legal`](india-legal/) plugin for Indian law** on top of Anthropic's [claude-for-legal](https://github.com/anthropics/claude-for-legal). Everything below the line is the upstream README, unchanged.
+
+The upstream plugins are written for US practice (state law, FMLA, GDPR, US filings). Indian in-house teams, company secretaries, CFOs and founders need the Indian Contract Act, stamp duty, the Companies Act, FEMA and SEBI. `india-legal` adds six skills:
+
+| Skill | Use it for |
+|---|---|
+| [india-contract-review](india-legal/skills/india-contract-review/SKILL.md) | Commercial contracts and NDAs under Indian law: s. 27 restraints, s. 74 damages, arbitration seat, stamp duty, GST / TDS clauses, DPDP Act |
+| [leave-licence-review](india-legal/skills/leave-licence-review/SKILL.md) | Office, retail, warehouse and co-working leases: registration, stamp duty, lock-in, escalation, deposit, sub-licensing, Ind AS 116 flag |
+| [sha-investment-review](india-legal/skills/sha-investment-review/SKILL.md) | Term sheets, SHA, SSA and articles: CCPS / CCDs, FEMA pricing, sections 42 / 62 process, liquidation preference, anti-dilution, closing checklist |
+| [esop-scheme-india](india-legal/skills/esop-scheme-india/SKILL.md) | ESOP schemes under Companies Act Rule 12 and SEBI SBEB, perquisite tax and startup deferral, Ind AS 102, employee FAQ |
+| [board-resolutions-india](india-legal/skills/board-resolutions-india/SKILL.md) | Board, circular and shareholder resolutions, explanatory statements, certified true copies, s. 179(3) and MGT-14 filing map |
+| [fema-cross-border](india-legal/skills/fema-cross-border/SKILL.md) | FDI, downstream investment, ODI, ECB, GIFT City IFSC: FC-GPR, FC-TRS, ODI, APR, FLA timelines and late-fee exposure |
+
+### Install
+
+```
+/plugin marketplace add parinshahAIbuilder/claude-for-legal-india
+```
+
+```
+/plugin install india-legal@claude-for-legal-india
+```
+
+The upstream plugins are in this marketplace too. When following the upstream instructions below from this fork, replace `@claude-for-legal` with `@claude-for-legal-india`.
+
+Every output is a draft for review by qualified Indian counsel, a company secretary or a chartered accountant, and is not legal advice. Pair it with [claude-for-indian-finance](https://github.com/parinshahAIbuilder/claude-for-indian-finance) for SEBI LODR, Ind AS, GST, TDS, CMA and NCD workflows.
+
+India edition maintained by [Parin Shah](https://www.linkedin.com/in/parinshah-cfo), CFO | CA | CPA. Changes from upstream are listed in [NOTICE-INDIA.md](NOTICE-INDIA.md). Licensed under Apache-2.0, like the upstream project. Not affiliated with or endorsed by Anthropic.
+
+---
+
 # Claude for Legal
 
 Reference agents, skills, and data connectors for the legal workflows we see most — in-house commercial, privacy, product, corporate, employment, litigation, regulatory, AI governance, IP, and the learning side of the practice (law school clinics and students).
