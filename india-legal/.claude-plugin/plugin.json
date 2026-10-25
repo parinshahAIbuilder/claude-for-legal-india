@@ -1,0 +1,17 @@
+{
+  "name": "india-legal",
+  "version": "0.1.0",
+  "description": "Indian law edition: contract review under the Indian Contract Act with stamp duty and arbitration checks, commercial lease and leave-and-licence review, SHA / SSA and funding-round documents with FEMA pricing, ESOP schemes under the Companies Act and SEBI SBEB, board and shareholder resolutions with MCA filings, and FEMA / RBI cross-border compliance.",
+  "author": {
+    "name": "Parin Shah",
+    "url": "https://github.com/parinshahAIbuilder"
+  },
+  "license": "Apache-2.0",
+  "keywords": [
+    "india",
+    "legal",
+    "companies-act",
+    "fema",
+    "contracts"
+  ]
+}
