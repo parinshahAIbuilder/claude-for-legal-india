@@ -1,11 +1,20 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "claude-for-legal",
-  "description": "Reference agents, skills, and data connectors for the legal workflows we see most — in-house commercial, privacy, product, corporate, employment, litigation, regulatory, AI governance, IP, and the learning side of the practice (law school clinics and students).",
+  "name": "claude-for-legal-india",
+  "description": "India edition of Claude for Legal: Anthropic's legal plugins plus an india-legal plugin for Indian law. Reference agents, skills, and data connectors for the legal workflows we see most — in-house commercial, privacy, product, corporate, employment, litigation, regulatory, AI governance, IP, and the learning side of the practice (law school clinics and students).",
   "owner": {
-    "name": "Anthropic"
+    "name": "Parin Shah"
   },
   "plugins": [
+    {
+      "name": "india-legal",
+      "displayName": "India Legal",
+      "source": "./india-legal",
+      "description": "Indian law edition: contract review under the Indian Contract Act with stamp duty and arbitration checks, commercial lease and leave-and-licence review, SHA / SSA and funding-round documents with FEMA pricing, ESOP schemes under the Companies Act and SEBI SBEB, board and shareholder resolutions with MCA filings, and FEMA / RBI cross-border compliance.",
+      "author": {
+        "name": "Parin Shah"
+      }
+    },
     {
       "name": "commercial-legal",
       "displayName": "Commercial Legal",
