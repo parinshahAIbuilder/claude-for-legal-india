@@ -13,5 +13,8 @@
     "companies-act",
     "fema",
     "contracts"
-  ]
+  ],
+  "displayName": "India Legal",
+  "homepage": "https://github.com/parinshahAIbuilder/claude-for-legal-india",
+  "repository": "https://github.com/parinshahAIbuilder/claude-for-legal-india"
 }
